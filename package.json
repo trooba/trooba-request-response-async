@@ -1,0 +1,42 @@
+{
+  "name": "trooba-request-response-async",
+  "version": "0.1.0",
+  "description": "The plugin extends [request-response](https://github.com/trooba/trooba-request-response) trooba plugin to support handlers in koa like execution template",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trooba/trooba-request-response-async.git"
+  },
+  "keywords": [
+    "trooba",
+    "async",
+    "await",
+    "request",
+    "response",
+    "service",
+    "pipe"
+  ],
+  "author": "Dmytro Semenov <dimichsdg@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trooba/trooba-request-response-async/issues"
+  },
+  "homepage": "https://github.com/trooba/trooba-request-response-async",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "trooba": "file:../trooba",
+    "trooba-plugin": "file:../trooba-plugin/",
+    "trooba-request-response": "file:../trooba-request-response",
+    "trooba-streaming": "^0.1.0"
+  },
+  "engines": {
+    "node": ">8.5.0"
+  }
+}
