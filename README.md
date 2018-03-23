@@ -1,5 +1,7 @@
 # trooba-request-response-async
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/trooba/trooba-request-response-async.svg)](https://greenkeeper.io/)
+
 The plugin extends [request-response](https://github.com/trooba/trooba-request-response) trooba plugin to koa like execution template.
 
 Requires trooba framework version 3+ and node 8+
